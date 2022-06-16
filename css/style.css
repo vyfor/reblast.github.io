@@ -18,11 +18,12 @@ body{
 }
 
 .animatedText{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     position: absolute;
     width: 500px;
-    top: 50%;
-    left: 55%;
+    top: 25%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
     font-family: Arial;
@@ -40,6 +41,18 @@ body{
 
 .typed-cursor {
     color: red;
+}
+
+.about{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    width: 650px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 footer{
@@ -64,10 +77,11 @@ footer{
     transition: transform 0.5s;
 }
 
-.fa-youtube:hover{
-    transform: scale(110%);
+.fa-github{
+    color: black;
+    transition: transform 0.5s;
 }
 
-.fa-discord:hover{
-    transform: scale(110%);
+.fa-brands:hover{
+    transform: scale(115%);
 }
