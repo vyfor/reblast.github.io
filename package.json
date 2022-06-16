@@ -1,0 +1,7 @@
+{
+  "name": "Website",
+  "version": "1.0.0",
+  "devDependencies": {
+    "typed.js": "^2.0.12"
+  }
+}

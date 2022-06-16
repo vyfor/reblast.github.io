@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blast</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cooltipz-css@2.1.0/cooltipz.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/f866428dbd.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <section id="home">
+        <div class="animatedText">
+            <div class="text">I'm a <span id="typed"></span></div>
+            <script>
+                console.log("Hey!")
+                new Typed('#typed', {
+                    strings: ["Developer", "YouTuber", "Gamer"],
+                    typeSpeed: 75,
+                    backSpeed: 50,
+                    loop: true
+                });
+            </script>
+        </div>
+    </section>
+    <footer>
+        <a aria-label="Blast#9400" data-cooltipz-dir="right" href="https://discord.com" target="_blank" id="discord"><i class="fa-brands fa-discord"></i></a>
+        <a href="https://www.youtube.com/channel/UCqAEy1QoR6p_JlhDZNKPavA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    </footer>
+    <div id="particles-js"></div>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
