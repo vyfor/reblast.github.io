@@ -1,0 +1,87 @@
+@import url('https://cdn.jsdelivr.net/npm/cooltipz-css@2.1.0/cooltipz.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-color: #262626;
+}
+
+#particles-js{
+    height: 100%;
+}
+
+.animatedText{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 500px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.animatedText:hover{
+    cursor: default;
+}
+
+#typed{
+    color: red;
+}
+
+.typed-cursor {
+    color: red;
+}
+
+.about{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    width: 650px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+}
+
+.fa-youtube{
+    padding-right: 30px;
+    color: red;
+    transition: transform 0.6s;
+}
+
+.fa-discord{
+    padding-left: 30px;
+    color: royalblue;
+    transition: transform 0.6s;
+}
+
+.fa-github{
+    color: black;
+    transition: transform 0.6s;
+}
+
+.fa-brands:hover{
+    transform: scale(115%);
+}
