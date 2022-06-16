@@ -85,3 +85,7 @@ footer{
 .fa-brands:hover{
     transform: scale(115%);
 }
+
+.java{
+    text-decoration: line-through;
+}
